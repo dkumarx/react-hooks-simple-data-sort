@@ -1,14 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Pets from './components/pets/pets.component'
 
 function App() {
   return (
     <div className="App">
-        <header className="App-header">Showing pets (Cat) : Sort by Gender's owner</header>
-        <main>
-          Result container
-        </main>
+      <Pets />
     </div>
   );
 }
