@@ -1,9 +1,9 @@
 import React from 'react';
 
-const header = () => {
+const Header = () => {
   return (
-    <header className="App-header">Showing pets (Cat) : Sort by Gender's owner</header>
+    <header className="App-header">Showing pets</header>
   );
 }
 
-export default header;
+export default Header;
